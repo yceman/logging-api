@@ -1,2 +1,16 @@
-# logging-api
-📈 Javascript Logging API
+# \#logging-api
+
+📈 Javascript Logging API  
+
+
+
+Serving the application:  
+
+
+
+```
+
+npm start
+
+```
+

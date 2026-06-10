@@ -1,0 +1,35 @@
+{
+  "name": "logging-api",
+  "version": "1.0.0",
+  "description": "Logging api",
+  "keywords": [
+    "API",
+    "Logging",
+    "Javascript"
+  ],
+  "homepage": "https://github.com/yceman/logging-api#readme",
+  "bugs": {
+    "url": "https://github.com/yceman/logging-api/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yceman/logging-api.git"
+  },
+  "license": "MIT",
+  "author": "Marcos Morais",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server/server.js",
+    "start": "node src/server/server.js",
+    "test": "&&jest"
+  },
+  "rootDir": "src",
+  "dependencies": {
+    "@fastify/jwt": "^10.1.0",
+    "fastify": "^5.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
