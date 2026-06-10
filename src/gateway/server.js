@@ -2,9 +2,10 @@
 import Fastify from 'fastify';
 import fastifyHttpProxy from '@fastify/http-proxy';
 
-import pingRoutes from './routes/ping.js';
+import pingRoutes from '../routes/ping.js';
 
-const gateway = Fastify({ logger: true });
+/*const gateway = Fastify({ logger: true });*/
+const gateway = Fastify({ logger: 'debug' });
 
 const app = Fastify({
   logger: {

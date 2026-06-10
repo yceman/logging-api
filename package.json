@@ -26,8 +26,10 @@
   },
   "rootDir": "src",
   "dependencies": {
+    "@fastify/http-proxy": "^11.5.0",
     "@fastify/jwt": "^10.1.0",
-    "fastify": "^5.8.5"
+    "fastify": "^5.8.5",
+    "pino-pretty": "^13.1.3"
   },
   "devDependencies": {
     "nodemon": "^3.1.14"
