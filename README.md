@@ -1,9 +1,9 @@
 # \#logging-api
 
-📈 Javascript Logging API  
+📈 Javascript Logging API Module  
   
   
-########################
+########################  
 Serving the application:  
 #######################
   
