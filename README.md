@@ -1,4 +1,4 @@
-# \#logging-api
+# 😃\#logging-api
 
 📈 Javascript Logging API Module.  
 APP Module.  
